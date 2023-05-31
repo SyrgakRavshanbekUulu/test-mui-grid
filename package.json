@@ -1,7 +1,7 @@
 {
   "name": "test-mui-grid",
   "version": "0.1.0",
-  "homepage": "https://syrgakravshanbekuulu.github.io/test-mui-grid",
+  "homepage": "https://syrgakravshanbekuulu.github.io/test-mui-grid/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
