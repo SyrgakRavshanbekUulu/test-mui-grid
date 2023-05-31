@@ -4,7 +4,6 @@ import { clearAll, read } from 'service/storage';
 
 export const checkUrl = ({ pathname }: Location) => {
   const notFound = !hasMatch(pathname);
-  console.log(pathname)
 
   if (notFound) return '/not-found';
 }
