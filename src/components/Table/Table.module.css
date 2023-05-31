@@ -1,5 +1,10 @@
 .table {
   min-height: 100px;
-  max-height: 300px;
   width: 100%;
+  max-width: 900px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=Table.module.css.map */

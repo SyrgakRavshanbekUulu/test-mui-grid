@@ -35,8 +35,8 @@ const Table: React.FC = () => {
   ];
 
   return (
-    <div className={styles.table}>
-      <DataGrid rows={rows} columns={columns} />
+    <div className={styles.container} >
+      <DataGrid className={styles.table} rows={rows} columns={columns} />
       <ModalComponent open={selectedPhoto !== null} onClose={() => setSelectedPhoto(null)}>
       {selectedPhoto ? (
         <img src={selectedPhoto}/>
