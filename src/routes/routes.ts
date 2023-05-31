@@ -6,6 +6,9 @@ export const routeMap = new Map<string, RouteData>()
   .set('/not-found', {
     page: pages.NotFound,
   })
+  .set('/test-mui-grid', {
+    page: pages.Home,
+  })
   .set('/', {
     page: pages.Home,
   });
