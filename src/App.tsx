@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
-import { Navigate, Route, Routes, useLocation } from 'react-router';
-import { checkUrl } from 'shared/utils/app';
+import { useEffect } from 'react';
+import { Route, Routes, useLocation } from 'react-router';
 import { useAppDispatch } from 'store/store';
 import { getAllUsers } from 'store/user/reducers';
 import { routeArray } from 'routes/routes';
@@ -13,12 +12,10 @@ function App() {
   const dispatch = useAppDispatch();
   const location = useLocation();
 
-  const redirect = checkUrl(location)
 
   useEffect(() => {
     dispatch(getAllUsers())
   }, [dispatch])
-  // if (redirect !== undefined) return <Navigate to={redirect} />
   return (
     <div>
       <Routes>
