@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     dispatch(getAllUsers())
   }, [dispatch])
-  if (redirect !== undefined) return <Navigate to={redirect} />
+  // if (redirect !== undefined) return <Navigate to={redirect} />
   return (
     <div>
       <Routes>
