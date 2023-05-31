@@ -1,0 +1,8 @@
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px;
+  padding: 4;
+}/*# sourceMappingURL=Modal.module.css.map */
